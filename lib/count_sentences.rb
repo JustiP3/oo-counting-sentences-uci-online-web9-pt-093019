@@ -27,6 +27,7 @@ class String
   end
 
   def count_sentences
-
+    array = self.scan(/[.]/)
+    return array.length 
   end
 end
